@@ -58,6 +58,20 @@ print(my_list[5:])
 # elements beginning to end
 print(my_list[:])
 
+
+# empty range
+print(list(range(0)))
+
+# using range(stop)
+print(list(range(10)))
+
+# using range(start, stop)
+print(list(range(1, 10)))
+
+# using range(start, stop)
+print(list(range(1, 10, 2)))
+
+
 # List comprehension is an elegant and concise way to create a new list from an existing list in Python.
 
 # A list comprehension consists of an expression followed by for statement inside square brackets.
