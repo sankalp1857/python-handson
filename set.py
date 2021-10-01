@@ -68,3 +68,12 @@ print(my_set)
 my_set.update([4, 5], {1, 6, 8})
 print(my_set)
 
+
+# Set union method
+# initialize A and B
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+# use | operator
+# Output: {1, 2, 3, 4, 5, 6, 7, 8}
+print(A | B)
