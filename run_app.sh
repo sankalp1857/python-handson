@@ -17,5 +17,5 @@ echo "installing dependencies"
 sudo pip3 install -r requirements.txt
 
 echo "Running server"
-uvicorn main:app --reload
+uvicorn app:app --reload
 
